@@ -265,7 +265,7 @@
 
   // Replace this with your deployed Cloudflare Worker URL (see worker.js at the repo root).
   // The frontend never talks to Gemini directly and never holds an API key.
-  var CHAT_BACKEND_URL = 'https://YOUR-WORKER-SUBDOMAIN.workers.dev/chat';
+  var CHAT_BACKEND_URL = 'https://gym-worker.meherali22053.workers.dev/chat';
 
   if (chatLauncher && chatPanel && chatForm && chatInput && chatBody) {
     var hasGreeted = false;
